@@ -1,0 +1,10 @@
+// what-we-do-wrapper
+.what-we-do-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    &.m-bottom {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -388px;
+    }
+}

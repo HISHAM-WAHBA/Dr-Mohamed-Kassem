@@ -1,0 +1,62 @@
+// Our Expert Single Item
+.expert-single-item {
+    position: relative;
+    z-index: 0;
+    &.bg-image {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        min-height: 400px;
+    }
+    .content {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        display: inline-block;
+        padding: 15px;
+        background-color: var(--main-color-one);
+        &.style-01 {
+            background-color: var(--main-color-two);
+        }
+        .icon {
+            color: $white;
+            font-size: 50px;
+            line-height: 60px;
+        }
+        .title {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 28px;
+            color: $white;
+        }
+    }
+}
+
+.expert-single-item-02 {
+    display: flex;
+    padding: 40px 60px 35px;
+    border-radius: 5px;
+    background-color: var(--main-color-one);
+    &.style-01 {
+        background-color: var(--main-color-two);
+    }
+    .icon {
+        color: $white;
+        font-size: 50px;
+        line-height: 60px;
+        margin-right: 20px;
+    }
+    .content {
+        .title {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 28px;
+            color: $white;
+        }
+        p {
+            color: $white;
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+// support-single-item
+.support-single-item {
+    display: flex;
+    .icon {
+        color: var(--main-color-one);
+        font-size: 40px;
+        line-height: 50px;
+        margin-right: 20px;
+    }
+    .content {
+        .title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+/*--------------------------
+// Team Area
+--------------------------*/
+
+.team-single-item {
+    position: relative;
+    margin-bottom: 30px;
+    &:hover {}
+    .content {
+        margin-left: 30px;
+        margin-top: -20px;
+        .designation {
+            margin-bottom: 25px;
+            color: $white;
+            font-size: 16px;
+            display: inline-block;
+            border-radius: 25px;
+            padding: 5px 35px;
+            background-color: var(--main-color-two);
+        }
+        .title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+    }
+    .social-link {
+        margin-top: 20px;
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 40px;
+                list-style-type: none;
+                background-color: #e1e1e1;
+                color: var(--main-color-one);
+                &:hover {
+                    color: $white;
+                    border: none;
+                    transition: all 0.3s ease-in;
+                    background-color: var(--main-color-one);
+                }
+            }
+        }
+    }
+}

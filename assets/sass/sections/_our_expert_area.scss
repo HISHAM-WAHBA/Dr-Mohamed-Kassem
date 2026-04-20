@@ -1,0 +1,25 @@
+// our-expert-area
+.our-expert-area {
+    &.bg-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.experts-content {
+    .section-title {
+        .icon {
+            color: $white;
+            font-size: 90px;
+            line-height: 100px;
+        }
+    }
+}
+
+.expert-wrapper {
+    &.m-bottom {
+        margin-bottom: -70px;
+        position: relative;
+        z-index: 1;
+    }
+}

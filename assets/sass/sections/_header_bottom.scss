@@ -1,0 +1,23 @@
+/*----------------------------
+    Header Bottom Area
+-----------------------------*/
+
+.header-bottom-wrapper {
+    &.m-bottom {
+        margin-bottom: -90px;
+        position: relative;
+        z-index: 1;
+    }
+    &.m-top {
+        margin-top: -137px;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.header-bottom-inner {}
+
+.header-bottom-wrap {
+    background-color: var(--secondary-color);
+    padding: 30px 0 40px 0;
+}

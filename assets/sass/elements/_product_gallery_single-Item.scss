@@ -1,0 +1,80 @@
+    /*---------------------------------
+    product-single-item 
+    ---------------------------------*/
+    
+    .product-single-item {
+        border: 1px solid #e1e1e1;
+        padding: 40px 0;
+        margin-bottom: 0;
+        border-radius: 5px;
+        transition: all .3s ease-in;
+        text-align: center;
+        &:hover {
+            .product-header {
+                .img-icon {
+                    img {
+                        visibility: hidden;
+                    }
+                }
+                .social-link {
+                    display: block;
+                }
+            }
+        }
+        .product-header {
+            .img-icon {
+                transition: all .3s ease-in;
+                position: relative;
+            }
+            .title {
+                font-size: 18px;
+                line-height: 28px;
+                font-weight: 700;
+            }
+            .info-text {
+                font-size: 15px;
+                line-height: 24px;
+                margin-bottom: 0;
+            }
+            .social-link {
+                width: 100%;
+                position: absolute;
+                bottom: 50px;
+                display: none;
+                left: 50%;
+                transform: translateX(-50%);
+                ul {
+                    li {
+                        background-color: var(--main-color-two);
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                        text-align: center;
+                        border-radius: 50%;
+                        font-size: 15px;
+                        transition: all 0.3s ease-in;
+                        +li {
+                            margin-left: 10px;
+                        }
+                        &:hover {
+                            color: var(--secondary-color);
+                        }
+                    }
+                }
+            }
+        }
+        .product-wrap {
+            margin-bottom: 13px;
+            font-size: 16px;
+            line-height: 50px;
+            font-weight: 700;
+            color: var(--main-color-two);
+        }
+        .product-footer {
+            .btn-wrapper {
+                .boxed-btn {
+                    padding: 12px 40px;
+                }
+            }
+        }
+    }

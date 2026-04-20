@@ -1,0 +1,35 @@
+// Save Area
+.save-area {
+    padding-left: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    &.bg-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .section-title {
+        .title {
+            margin-bottom: 25px;
+        }
+        p {
+            font-size: 36px;
+            line-height: 46px;
+            font-weight: 600;
+            color: $white;
+            max-width: 200px;
+        }
+        .btn-wrapper {
+            margin-top: 25px;
+            .boxed-btn {
+                background-color: $white;
+                color: var(--heading-color);
+                &:hover {
+                    color: $white;
+                    background-color: var(--main-color-one);
+                }
+            }
+        }
+    }
+}

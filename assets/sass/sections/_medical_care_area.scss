@@ -1,0 +1,59 @@
+// medical-care-care
+.medical-care-care-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+        width: calc(100%/3);
+    }
+}
+
+.medical-care-care {
+    padding: 55px 60px 30px 45px;
+    background-color: var(--main-color-two);
+    .section-title {
+        .title {
+            color: $white;
+        }
+        p {
+            color: $white;
+        }
+    }
+}
+
+.opening-content {
+    padding: 55px;
+    transform: scale(1.1);
+    background-color: var(--secondary-color);
+    position: relative;
+    z-index: 1;
+    .icon {
+        color: $white;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 700;
+        color: $white;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            color: $white;
+            width: 100%;
+            padding: 15px 0;
+            border-bottom: 1px dashed rgba($color: #fff, $alpha: .50);
+            a {
+                span {
+                    float: right;
+                }
+            }
+        }
+    }
+}

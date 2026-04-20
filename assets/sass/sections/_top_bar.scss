@@ -1,0 +1,58 @@
+/*----------------------------
+    Top Bar
+----------------------------*/
+
+.topbar-area {
+    background-color: rgba($color: #1d2f3c, $alpha: .80);
+}
+
+.topbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &.style-01 {
+        padding: 10px 0;
+    }
+    .right-contnet {
+        display: flex;
+        align-items: center;
+        .icon-part {
+            margin-right: 25px;
+            ul {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                display: flex;
+                li {
+                    font-size: 15px;
+                    color: $white;
+                }
+            }
+        }
+    }
+    div {
+        .appointment-btn {
+            padding: 15px 30px;
+            background-color: var(--main-color-one);
+            display: inline-block;
+            color: $white;
+            @include transition($transition);
+            position: relative;
+            z-index: 0;
+            &:after {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 1000px;
+                height: 100%;
+                background-color: var(--main-color-one);
+                z-index: -1;
+            }
+            &:hover {
+                background-color: var(--secondary-color);
+                color: $white;
+            }
+        }
+    }
+}

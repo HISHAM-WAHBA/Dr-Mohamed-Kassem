@@ -1,0 +1,46 @@
+// countdown-area
+.countdown-area {
+    border-radius: 5px;
+    &.bg-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &.style-01 {
+        padding-left: 80px;
+        .section-inner-title {
+            .title {
+                padding: 10px 20px;
+                font-size: 42px;
+                line-height: 52px;
+            }
+        }
+    }
+    .section-inner-title {
+        .title {
+            background-color: #ffce61;
+            display: inline-block;
+            padding: 20px;
+            font-size: 72px;
+            line-height: 82px;
+            font-weight: 700;
+            margin-bottom: 35px;
+        }
+        p {
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 40px;
+            color: $white;
+            margin-bottom: 35px;
+        }
+    }
+    .btn-wrapper {
+        margin-top: 25px;
+        .boxed-btn {
+            background-color: $white;
+            color: var(--heading-color);
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}
